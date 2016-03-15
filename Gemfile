@@ -3,8 +3,6 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.5.1'
-# Use sqlite3 as the database for Active Record
-gem 'sqlite3'
 # bootstrap for styles
 gem 'bootstrap-sass', '~> 3.3.6'
 # Use SCSS for stylesheets
@@ -37,7 +35,7 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'sqlite3'
-  gem 'byebug'
+  gem 'byebug
 end
 
 group :development do
